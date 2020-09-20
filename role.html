@@ -1,0 +1,63 @@
+<html>
+<head>
+    <title>Role</title>
+<style>
+
+input[type=text], input[type=password] {
+ 
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  box-sizing: border-box;
+    height: 3%;
+}
+
+button {
+  background-color:black;
+  color: white;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  cursor: pointer;
+  width:
+}
+
+button:hover {
+  opacity: 0.8;
+}
+  
+    
+
+</style>
+</head>
+<body style="background-image:url('img1.jpg')">
+    <div class="container" style="width:100%;height:5%;background-color: transparent;">
+    
+      <img src="logo1.png" style="height: 100px;width:220px;float:left;"> 
+      <input type="image"src="user.jpg" width="50" height="45" style="float:right;border-radius: 50%;margin-right: 3px;margin-top: 5px;">
+     
+     </div>
+
+<form action="/action_page.php" method="post">
+
+  <div class="container" style="background-color:lightgrey;margin-top:10%;width:30%;height:55%;margin-left:35%;border-radius: 1ex;"><br>
+        
+        <h3 style="text-align: center;">Role Form</h3>
+    <label for="pname" style="margin-left:30px;"><b>Role Name</b></label>
+    <input type="text"  name="pname" required style="margin-left:15%;"><br>
+        <label for="sdate" style="margin-left:27px;"><b>Created By</b></label>
+    <input type="text"  name="sdate" required style="margin-left:15%;"><br>
+        <label for="edate" style="margin-left:33px;"><b>Created Date</b></label>
+    <input type="text"  name="edate" required style="margin-left:10%;"><br>
+        <label for="cname" style="margin-left:33px;"><b>Last Updated Date</b></label>
+         <input type="text"  name="edate" required><br>
+         <label for="pname" style="margin-left:30px;"><b>Role</b></label>
+    <input type="text"  name="pname" required style="margin-left:25%;"><br>
+    <button type="submit" style="margin-left:170px;"onclick="document.location='new-role-msg.html'">submit</button>
+    
+  </div>
+</form>
+
+</body>
+</html>

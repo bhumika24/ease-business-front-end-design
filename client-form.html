@@ -1,0 +1,59 @@
+<html>
+<head>
+<title>Client-form</title>
+<style>
+
+
+input[type=text], input[type=password] {
+ 
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  box-sizing: border-box;
+    height: 3%;
+}
+
+button {
+  background-color:black;
+  color: white;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  cursor: pointer;
+  width:
+}
+
+button:hover {
+  opacity: 0.8;
+}
+  
+    
+
+</style>
+</head>
+<body style="background-image:url('img1.jpg')">
+    <div class="container" style="width:100%;height:5%;background-color: transparent;">
+      <img src="logo1.png" style="height: 100px;width:220px;float:left;"> 
+      <input type="image"src="user.jpg" width="50" height="45" onclick="opForm()" style="float:right;border-radius: 50%;margin-right: 3px;margin-top: 5px;">
+     </div>
+
+<form action="/action_page.php" method="post">
+
+  <div class="container" style="background-color:lightgrey;margin-top:10%;width:30%;height:42%;margin-left:36%;border-radius: 1ex;">
+        <h3 style="text-align: center;">Client Form</h3>
+    <label for="pname" style="margin-left:30px;"><b>Client Name</b></label>&nbsp;&nbsp;&nbsp;
+    <input type="text"  name="pname" required><br>
+        <label for="sdate" style="margin-left:35px;"><b>Address</b></label>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+    <input type="text"  name="sdate" required><br>
+        <label for="edate" style="margin-left:30px;"><b>GSTN</b></label>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+    <input type="text"  name="edate" required><br>
+        <label for="cname" style="margin-left:35px;"><b>Project</b></label>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+         <input type="text"  name="edate" required><br>
+    <button type="submit" style="margin-left:170px;"onclick="document.location='page2.html'">submit</button>
+    
+  </div>
+</form>
+
+</body>
+</html>

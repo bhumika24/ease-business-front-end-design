@@ -1,0 +1,101 @@
+<html>
+<head>
+    <title>Register-form</title>
+<style>
+form {
+    margin-left:32%;
+    border-radius:3ex;
+    }
+
+
+input[type=text], select {
+  width: 55%;
+  height: 5%;  
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+
+button {
+  background-color:black;
+  color: white;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+  width: 30%;
+    margin-left:20%;
+    margin-top: 20px
+}
+
+button:hover {
+  opacity: 0.8;
+}
+.container {
+    padding: 16px;
+  
+    margin-right:30px;
+    
+}
+</style>
+</head>
+<body style="background-image:url('img1.jpg')">
+    <div class="container" style="background-color:transparent;">
+    
+      <img src="logo1.png" style="height: 100px;width:220px;float:left;"> 
+    
+     </div>
+<form > 
+<div style="background-color:whitesmoke;height:auto; border-radius: 2ex; width:400px;margin-right:60%;">
+   
+  
+  <div class="container" align="center" style="  margin-top: 60px;">
+     
+
+       <h3> Employee Registration Form</h3>
+      
+              <label for="ename" style="margin-left:50px;"><b>Emp Name</b></label> &nbsp;&nbsp;
+              <input type="text" name="ename" id="ename" required><br>
+
+              <label for="fname" style="margin-left:50px;"><b>First Name</b></label> &nbsp;&nbsp;
+              <input type="text" name="fname" id="fname" required><br>
+      
+              <label for="mname" style="margin-left:40px;"><b>Middle Name</b></label> &nbsp;&nbsp;
+              <input type="text" name="mname" id="mname" required><br>
+   
+
+              <label for="lname" style="margin-left:60px;"><b>LastName</b></label> &nbsp;&nbsp;
+              <input type="text" name="lname" id="lname" required><br>
+              
+              <label for="dob" style="margin-left:89px;"><b>DOB</b></label> &nbsp;&nbsp;&nbsp;
+              <input type="text" name="dob" id="dob" required><br>
+              
+               <label for="adhr"style="margin-left:65px;"><b>Adhar No</b></label> &nbsp;&nbsp;
+               <input type="text"  name="adhr" id="adhr" required><br>
+               
+               <label for="role" style="margin-left:95px;"><b>Role</b></label> &nbsp;&nbsp;
+               <input type="text"  name="role" id="role" required ><br>
+      
+                <label for="jdate" style="margin-left:40px;"><b>Joining date</b></label> &nbsp;&nbsp;
+               <input type="text"  name="jdate" id="jdate" required ><br>
+      
+               <label for="add" style="margin-left:65px;"><b>Address</b></label> &nbsp;&nbsp;
+              <input type="text" name="add" id="add" required><br>
+
+      
+               <button type="submit" onclick="document.location= 'new-register-msg.html '" class="registerbtn" style="background-color:black;color:white;align:center;">Submit</button>
+      
+      
+         </form>
+    
+        </div>   
+    </div>
+
+
+    </body>
+    
+</html>
